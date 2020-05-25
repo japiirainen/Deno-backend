@@ -1,5 +1,6 @@
+//interface for csgo match
 export interface Match {
-  id: number
+  id: string
   category: string
   tournament: string
   team1: string
