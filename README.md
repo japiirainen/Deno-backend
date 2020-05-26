@@ -1,17 +1,19 @@
 # Deno-backend
-Deno REST API
 
+Deno REST API
 
 betting site todo:
 
-[] ##Backend
+## Backend
+
 [] getCsgoMatch route
 [] getCsgoMatches route
 [] updateCsgoMatch route
 [] delete CsgoMatch route
 
-[] ##Frontend
+## Frontend
+
 [] Change from blueprintjs to Material UI
 [] Consider using easy-peasy
 [] login authentication
-[] render match data on frontpage 
+[] render match data on frontpage
