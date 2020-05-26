@@ -1,5 +1,6 @@
 import { Match } from '../types.ts'
-import { addMatch } from '../database/csgoMatches.ts'
+import { addMatch, getMatches } from '../database/csgoMatches.ts'
+
 //Mock data
 
 let csgoMatches: Match[] = [
@@ -39,10 +40,10 @@ let csgoMatches: Match[] = [
 ]
 //description: Get all csgoMatches
 //route: GET /api/v1/csgomatches
-const getCsgoMatches = ({ response }: { response: any }) => {
+const getCsgoMatches = async ({ response }: { response: any }) => {
   response.body = {
     success: true,
-    data: csgoMatches,
+    data: await getMatches(),
   }
 }
 

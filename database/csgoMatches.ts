@@ -15,4 +15,11 @@ const addMatch = async (match: Match) => {
   }
 }
 
-export { addMatch }
+const getMatches = async () => {
+  const response = await csgomatches.find({})
+  return {
+    response,
+  }
+}
+
+export { addMatch, getMatches }

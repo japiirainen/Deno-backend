@@ -7,7 +7,7 @@ betting site todo:
 ## Backend
 
 [] getCsgoMatch route
-[] getCsgoMatches route
+[x] getCsgoMatches route
 [] updateCsgoMatch route
 [] delete CsgoMatch route
 
