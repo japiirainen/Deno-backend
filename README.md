@@ -14,7 +14,8 @@ betting site todo:
 
 ## Frontend
 
-[] Change from blueprintjs to Material UI
-[] Consider using easy-peasy
-[] login authentication
+[x] Change from blueprintjs to Material UI
+[] creating a custom theme with material UI
+[] Consider using easy-peasy and useContext
+[] login authentication firebase vs aws cognito
 [] render match data on frontpage
